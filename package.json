@@ -1,0 +1,30 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Youtube Clone built NodeJS, Express, Mongo, and ES6🩷",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gata96/tube-nexus.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "Gata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gata96/tube-nexus/issues"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/gata96/tube-nexus#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "nodemon": "^3.1.4"
+  }
+}
